@@ -1,0 +1,67 @@
+$SIDEBACK_TOP: #DDA0DD;
+$SIDEBACK_BOTTOM: #9400D3;
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+@import "../www/lib/ionic/scss";
+@import url('https: //fonts.googleapis.com/css?family=Comfortaa');
+.side-back-gradient, .side-menu-gradient {
+	background: -webkit-linear-gradient(left top, $SIDEBACK_TOP, $SIDEBACK_BOTTOM);
+	background: -o-linear-gradient(bottom right, $SIDEBACK_TOP, $SIDEBACK_BOTTOM);
+	background: -moz-linear-gradient(bottom right, $SIDEBACK_TOP, $SIDEBACK_BOTTOM);
+	background: linear-gradient(to bottom right, $SIDEBACK_TOP, $SIDEBACK_BOTTOM);
+}
+
+.side-menu-item {
+	background: none;
+	color: white;
+	font-weight: 300;
+	border: 0px;
+	.item-content {
+		background: none;
+	}
+	
+}
+.short {
+	width: 50% !important;
+}
+
+.curve {
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	border-radius: 25px;
+	padding: 0.5px;
+}
+
+.backgroundsolid {
+	background: #9400D3;
+}
+
+.container1 {
+	border: 2px solid #EFF1F5;
+	border-radius: 15px;
+	padding: 5px;
+}
+
+.eldertext {
+	background: white;
+	border-radius: 8px;
+}
+
+.caretext {
+	background: white;
+	border-radius: 8px;
+}
+
+.comfortaa {
+	font-family: 'comfortaa';
+}
+
+.move {
+	margin-top: -10px !important;
+	padding-top: -10px !important;
+}
+
+ion-view,.pane,.view {
+	background-color: #7645A1;
+}
+
